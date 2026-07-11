@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Exímia — Fragância &amp; Beleza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <a href="#" class="logo">
+        <span class="logo__main">A Exímia</span>
+        <span class="logo__sub">Fragância &amp; Beleza</span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#populares">Populares</a>
+        <a href="#loja">Lojas</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="header__actions">
+        <a class="btn btn--ghost" href="#cadastro">Cadastre-se</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="cadastro">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Flores que contam a sua história</p>
+          <h1 class="hero__title">A Exímia</h1>
+          <p class="hero__tagline">Fragância &amp; Beleza em cada arranjo</p>
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href="#catalogo">Explore o nosso catálogo</a>
+            <a class="btn btn--outline" href="#cadastro-form">Cadastre-se</a>
+          </div>
+        </div>
+        <figure class="hero__figure">
+          <img
+            src="images/hero-arranjo.png"
+            width="640"
+            height="640"
+            alt="Arranjo floral em vaso de vidro com dálias laranja, peônias magenta, rosas rosas e hortênsias azuis."
+            decoding="async"
+            fetchpriority="high"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalogo">
+      <div class="section-head">
+        <h2>Explore o nosso catálogo</h2>
+        <p>Escolha por ocasião ou tipo de arranjo</p>
+      </div>
+      <ul class="catalog__grid" role="list">
+        <li><a href="#" class="cat-card"><span>Casamentos</span></a></li>
+        <li><a href="#" class="cat-card"><span>Românticas</span></a></li>
+        <li><a href="#" class="cat-card"><span>Grandes eventos</span></a></li>
+        <li><a href="#" class="cat-card"><span>Buquê</span></a></li>
+        <li><a href="#" class="cat-card"><span>Arranjo em vaso</span></a></li>
+        <li><a href="#" class="cat-card"><span>Caixa de flores</span></a></li>
+        <li><a href="#" class="cat-card"><span>Cesta de flores</span></a></li>
+        <li><a href="#" class="cat-card"><span>Luto</span></a></li>
+        <li><a href="#" class="cat-card cat-card--wide"><span>Agradecimento</span></a></li>
+      </ul>
+    </section>
+
+    <section class="popular" id="populares">
+      <div class="section-head">
+        <h2>Populares</h2>
+        <p>Os favoritos dos nossos clientes</p>
+      </div>
+      <div class="popular__grid">
+        <article class="product-card">
+          <div class="product-card__visual">
+            <img
+              src="images/bouquet-cores.png"
+              width="800"
+              height="600"
+              alt="Buquê com flores azuis, rosas e roxas embrulhado em papel kraft."
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="product-card__body">
+            <h3>Explosão de cores</h3>
+            <p>Este buquê é uma verdadeira explosão de cores e sentimentos, perfeito para qualquer ocasião especial. Ele combina a delicadeza das rosas cor-de-rosa com a exuberância dos crisântemos azuis e roxos, criando um arranjo vibrante e único.</p>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-card__visual">
+            <img
+              src="images/bouquet-rosas.png"
+              width="800"
+              height="600"
+              alt="Buquê de rosas cor-de-rosa com laço de fita cetim."
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="product-card__body">
+            <h3>Rosas cor-de-rosa</h3>
+            <p>Este buquê de rosas cor-de-rosa é a escolha ideal para expressar amor, gratidão e admiração. Com a sua beleza clássica e a tonalidade suave e delicada, ele simboliza romance e afeto de uma forma atemporal.</p>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-card__visual">
+            <img
+              src="images/bouquet-peonias.png"
+              width="800"
+              height="600"
+              alt="Buquê de flores amarelas embrulhado em papel branco com laço de cordão."
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="product-card__body">
+            <h3>Peônias amarelas</h3>
+            <p>Este buquê de peônias amarelas é um verdadeiro raio de sol em forma de flores! Conhecidas pela sua exuberância e beleza luxuosa, as peônias amarelas simbolizam felicidade, prosperidade e novos começos.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="store" id="loja">
+      <div class="store__text">
+        <h2>Encontre a loja mais perto de você</h2>
+        <p>Visite-nos e sinta o aroma das flores frescas. Use o mapa para localizar a unidade mais conveniente.</p>
+        <a class="btn btn--primary" href="https://maps.google.com" target="_blank" rel="noopener noreferrer">Abrir no Google Maps</a>
+      </div>
+      <div class="store__map">
+        <iframe
+          title="Mapa — localização A Exímia"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.3959583372!2d-47.0592399!3d-23.6821604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce44845b8418c3%3A0x327fabd2d623f0c!2sS%C3%A3o%20Paulo%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="100%"
+          style="border:0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="newsletter" id="cadastro-form">
+      <div class="newsletter__inner">
+        <h2>Cadastre-se</h2>
+        <p>Receba novidades, promoções e inspirações florais.</p>
+        <form class="newsletter__form" action="#" method="post">
+          <label class="sr-only" for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="Seu e-mail" required autocomplete="email" />
+          <button class="btn btn--primary" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contato">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="logo__main">A Exímia</span>
+        <span class="logo__sub">Fragância &amp; Beleza</span>
+        <p class="footer__slogan">Onde cada flor encontra o seu significado.</p>
+      </div>
+      <div class="footer__block">
+        <h3>Contate-nos</h3>
+        <p><a href="tel:+5511999999999">(11) 99999-9999</a></p>
+        <p><a href="mailto:contato@aeximia.com.br">contato@aeximia.com.br</a></p>
+      </div>
+      <div class="footer__block">
+        <h3>Siga-nos</h3>
+        <ul class="social" role="list">
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="WhatsApp">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__copy">&copy; <span id="year"></span> A Exímia. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
