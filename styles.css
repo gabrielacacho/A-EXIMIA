@@ -468,7 +468,7 @@ img {
 
 .product-card__visual {
   aspect-ratio: 4 / 3;
-  /* Mesmo tom da seção: o alpha do PNG “encaixa” aqui em vez de branco sólido */
+  /* Mesmo tom da seção o alpha do PNG encaixa aqui em vez de branco sólido */
   background-color: var(--cream);
   background-image: radial-gradient(ellipse 90% 70% at 50% 80%, rgba(243, 235, 228, 0.9) 0%, var(--cream) 65%);
   display: flex;
@@ -514,7 +514,7 @@ img {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* Store */
+/*Store */
 .store {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -555,7 +555,7 @@ img {
   min-height: 280px;
 }
 
-/* Newsletter */
+/*Newsletter*/
 .newsletter {
   max-width: none;
   background: var(--sage-dark);
